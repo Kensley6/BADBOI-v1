@@ -31,7 +31,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "916909137213"
+let phoneNumber = "50934403152"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -156,9 +156,9 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
         })
         else v = id === '0@s.whatsapp.net' ? {
                 id,
-                name: 'WhatsApp'
+                name: ''
             } : id === XeonBotInc.decodeJid(XeonBotInc.user.id) ?
-            XeonBotInc.user :
+            ✭🍷𝗥𝗖𝗣 𝐂𝚪𝐔𝐒𝚮 𝐊𝚫𝐋𝚫𝐒𝚮𝐘🌹✮⃝👑✭ :
             (store.contacts[id] || {})
         return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
     }
@@ -275,7 +275,7 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
     }
 return startXeonBotInc()
 
-let file = require.resolve(__filename)
+let file = require.resolve(✭🍷𝗥𝗖𝗣 𝐂𝚪𝐔𝐒𝚮 𝐊𝚫𝐋𝚫𝐒𝚮𝐘🌹✮⃝👑✭)
 fs.watchFile(file, () => {
     fs.unwatchFile(file)
     console.log(chalk.redBright(`Update ${__filename}`))
